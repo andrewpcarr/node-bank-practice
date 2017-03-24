@@ -7,7 +7,6 @@ var fs = require("fs");
 var action = process.argv[2];
 var value = process.argv[3];
 
-// We will then create a switch-case statement (if-then would also work).
 // The switch-case will direct which function gets run.
 switch (action) {
   case "total":
